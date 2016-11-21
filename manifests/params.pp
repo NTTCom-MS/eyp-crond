@@ -2,11 +2,13 @@ class crond::params {
 
   $root_cron_files = [
     '/etc/crontab',
+  ]
+
+  $root_cron_dirs = [
+    '/etc/cron.d',
     '/etc/cron.hourly',
     '/etc/cron.weekly',
     '/etc/cron.monthly',
-    '/etc/cron.d',
-    '/etc/cron.allow',
   ]
 
   case $::osfamily
