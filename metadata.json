@@ -1,6 +1,6 @@
 {
   "name": "eyp-crond",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "eyp",
   "summary": "crond management",
   "license": "Apache-2.0",
@@ -38,10 +38,6 @@
     }
   ],
   "requirements": [
-    {
-      "name": "pe",
-      "version_requirement": ">= 3.0.0"
-    },
     {
       "name": "puppet",
       "version_requirement": ">= 3.0.0"
